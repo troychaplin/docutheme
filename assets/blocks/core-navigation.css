@@ -1,0 +1,7 @@
+/* wp-block-navigation */
+
+.wp-block-navigation:not(.wp-block-navigation__container) {
+    /* border: 2px solid #ff0000;
+    padding: 1rem;
+    background-color: #f0f0f0; */
+}

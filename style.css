@@ -4,5 +4,9 @@ Description: Documentation style block theme for WordPress.
 Author: Troy Chaplin
 Version: 1.0.0
 Update URI: false
-Text Domain: troychaplin
+Text Domain: docutheme
 */
+
+.docutheme-nav {
+    top: 120px;
+}
