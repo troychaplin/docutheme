@@ -12,6 +12,14 @@
 		"appearanceTools": true,
 		"color": {
 			"defaultPalette": false,
+			"gradients": [
+				{
+					"color": "#000",
+					"gradient": "linear-gradient(90deg,rgb(246,246,246) 36%,rgb(255,255,255) 45%)",
+					"name": "Main Background",
+					"slug": "custom-main-background"
+				}
+			],
 			"palette": [
 				{
 					"color": "#000",
@@ -66,14 +74,96 @@
 		},
 		"typography": {
 			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/inter/inter-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter/inter-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/inter/inter-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter/inter-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				}
+			],
 			"fontSizes": [
 				{
 					"fluid": {
-						"max": "16px",
+						"max": "15px",
 						"min": "14px"
 					},
+					"name": "X-Small",
+					"size": "15px",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"max": "18px",
+						"min": "16px"
+					},
 					"name": "Small",
-					"size": "16px",
+					"size": "18px",
 					"slug": "small"
 				},
 				{
@@ -136,6 +226,13 @@
 	"styles": {
 		"spacing": {
 			"blockGap": "24px"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontStyle": "normal",
+			"fontWeight": "300",
+			"lineHeight": "1.7"
 		}
 	},
 	"templateParts": [
